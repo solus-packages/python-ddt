@@ -1,0 +1,39 @@
+<PISI>
+    <Source>
+        <Name>python-ddt</Name>
+        <Packager>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Packager>
+        <License>MIT</License>
+        <PartOf>programming.python</PartOf>
+        <Summary xml:lang="en">Data-Driven Tests for Python Unittest</Summary>
+        <Description xml:lang="en">DDT (Data-Driven Tests) allows you to multiply one test case by running it with different test data, and make it appear as multiple test cases.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-ddt</Name>
+        <Summary xml:lang="en">Data-Driven Tests for Python Unittest</Summary>
+        <Description xml:lang="en">DDT (Data-Driven Tests) allows you to multiply one test case by running it with different test data, and make it appear as multiple test cases.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/__pycache__/ddt.cpython-36.pyc</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/ddt-1.2.1-py3.6.egg-info/PKG-INFO</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/ddt-1.2.1-py3.6.egg-info/SOURCES.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/ddt-1.2.1-py3.6.egg-info/dependency_links.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/ddt-1.2.1-py3.6.egg-info/top_level.txt</Path>
+            <Path fileType="library">/usr/lib/python3.6/site-packages/ddt.py</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2019-08-12</Date>
+            <Version>1.2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Fabio Forni</Name>
+            <Email>livingsilver94.solus@redaril.me</Email>
+        </Update>
+    </History>
+</PISI>
