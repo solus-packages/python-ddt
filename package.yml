@@ -1,6 +1,6 @@
 name       : python-ddt
 version    : 1.2.1
-release    : 2
+release    : 3
 source     :
     - https://files.pythonhosted.org/packages/6c/1e/6f33404c73f2ea97b9e44f6115cfc4a2e43b5d303cb288be427f8e194d72/ddt-1.2.1.tar.gz : d13e6af8f36238e89d00f4ebccf2bda4f6d1878be560a6600689e42077e164e3
 license    : MIT
